@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
 
-
+/* 
 * {
     box-sizing: border-box; 
-  }
+  } */
 
-header {
+/* header {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 10;
-}
+} */
 
 body {
     color:  rgb(73, 70, 70);
@@ -18,14 +18,11 @@ body {
     font-weight: 500; 
     font-family: 'Didact Gothic', sans-serif;   
 }
-
-.navbar {
-    position: relative;
-    height: 80px;
-    width: 100%;
-    transition: 0.5s ease;
+ /*
+ .navbar {
+    background: transparent;
 }
-  
+ 
 .navbar .nav {
     margin: 0;
     padding: 0;    
@@ -46,13 +43,15 @@ body {
 
 .navbar .nav .item a {
     text-decoration: none;    
-  }
+  } */
 
-.navbar .logo {
+/* .navbar  */
+.logo {
     line-height: 70px;
     text-align: center;
     font-weight: bold;
-    float: left;            
+    float: left; 
+    margin-top: 0;           
     margin-left: 5%;
     width: 70px;
     height: 70px;
@@ -61,10 +60,10 @@ body {
     transition: 1s ease;
 }
 
-.navbar .logo .content {
+/* .navbar .logo .content {
     
     vertical-align: middle;    
-}
+} */
 
 section {
     width: 100%;
@@ -84,7 +83,7 @@ section:nth-of-type(2n) {
     height: 90vh;    
 }
 
-.content {
+.content {    
     display: table-cell;
     vertical-align: middle;
 }
@@ -93,21 +92,20 @@ section:nth-of-type(2n) {
     margin-top: 100px;
 }
 
-.iconContent {  
-    display:inline-block;      
-    padding: 0 20px;    
+.iconContent {   
+    margin: 5px;           
 }
 
 .caption {
+    font-size: .9em;
     display:block; 
     text-align: center
 }
 
 .aboutSection {
-    margin: 10% 15%;
-    font-size: 0.75em;
-    font-weight: 500;
-    text-align: justify;
+    margin: 10% 0;
+    /* font-size: 0.75em; */
+    font-weight: 500;    
     color: rgb(47, 47, 47);
 }
 
@@ -130,6 +128,7 @@ p {
     font-size: 1em;
     font-weight: 500;
     color: rgb(134, 134, 134);
+    text-align: justify;
 }
   
 a {
@@ -140,10 +139,12 @@ a {
 
 a:hover {
     opacity: 0.8;
+    
 }
 
 a:active {
-    top: 1px;
+    top: 2px;
+    color: firebrick;    
 }
   
 footer {
@@ -151,10 +152,4 @@ footer {
     text-align: center;
     background-color: #373B44;
     color: white;
-}
-
-footer a {
-    color: #FE4B74;
-    font-weight: 500;
-    text-decoration: none;
 }
