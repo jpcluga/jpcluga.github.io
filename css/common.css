@@ -38,7 +38,7 @@ section:nth-of-type(2n) {
 }
 
 .intro {
-    height: 90vh;    
+    height: 90vh;   
 }
 
 .content {    
@@ -76,7 +76,7 @@ section:nth-of-type(2n) {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2.25em;
     display: block;
     color: rgb(73, 70, 70);
     font-weight: 300;
